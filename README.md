@@ -6,12 +6,12 @@
 - Cache de textura
 - Looping de animação
 - "State machine" simples - [Idle, Walk, Run]
-- Mapa topdown
+- Mapa topdown com exemplo de colisão
 
 
 ### Explicação do funcionamento
 Em breve no meu canal do Youtube: 
-- https://www.youtube.com/channel/UCOmqI_5AwdfJmRs6eq3X_qw?view_as=subscriber
+- https://www.youtube.com/channel/UCOmqI_5AwdfJmRs6eq3X_qw
 
 
 ### ...
