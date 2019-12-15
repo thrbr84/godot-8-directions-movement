@@ -1,5 +1,7 @@
 # godot-8-directions-movement
 
+- Foi utilizada a Godot 3.2 beta3 para esse exemplo
+
 
 ### Movimentação de 8 direções com um KinematicBody2D
 - Movimentos direcionais
