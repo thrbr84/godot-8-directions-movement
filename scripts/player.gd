@@ -25,7 +25,7 @@ func _physics_process(delta):
 	# regras de movimentação, animação e troca de textura do player
 	_move()
 	# implementa o movimento no KinematicBody2D
-	dir = move_and_slide(dir)
+	dir = move_and_slide(dir.normalized() * speed)
 
 func _move()->void:
 	# ////////
@@ -39,8 +39,8 @@ func _move()->void:
 	var UP:bool = Input.is_action_pressed("ui_up")
 	var DOWN:bool = Input.is_action_pressed("ui_down")
 	
-	var vX:int = (int(RIGHT)-int(LEFT)) * speed
-	var vY:int = (int(DOWN)-int(UP)) * speed
+	var vX:int = (int(RIGHT)-int(LEFT))
+	var vY:int = (int(DOWN)-int(UP))
 	
 	# //////// MOVIMENTA O PLAYER
 	dir.x = vX
