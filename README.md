@@ -1,21 +1,32 @@
 # godot-8-directions-movement
 
-- Foi utilizada a Godot 3.2 beta3 para esse exemplo
+- Godot 3.2.2 (rc3) was used for this example
 
-### Movimentação de 8 direções com um KinematicBody2D
-- Movimentos direcionais
-- Cache de textura
-- Looping de animação
-- "State machine" simples - [Idle, Walk, Run]
-- Mapa topdown com exemplo de colisão
+### [Part 1](part1/)
+- Directional movements (8-way movement with a KinematicBody2D)
+- Texture cache
+- Animation Looping
+- Simple "state machine" - [Idle, Walk, Run]
+- Topdown map with collision example
 
-### Explicação do funcionamento
-Video com a explicação completa no meu canal do Youtube: 
-- https://www.youtube.com/watch?v=tqObq7XZ1KI
+### [Part 2](part2/)
+- Get Mixamo animations
+- Configure and install the Addon in Blender
+    - GGT - Godot Game Tools por [Vinicius Guerrero](https://github.com/vini-guerrero)
+    - PRC - Pre-Render Creator por [Vinicius Guerrero](https://github.com/vini-guerrero)
+- How to use Addons
+- Exporting Spritesheet
+- Configuration at Godot
 
-[![Video com a explicação](https://img.youtube.com/vi/tqObq7XZ1KI/0.jpg)](https://www.youtube.com/watch?v=tqObq7XZ1KI)
+### Explanation
+Video with the complete explanation on my Youtube channel (PT_BR): 
+- PART #1 https://www.youtube.com/watch?v=tqObq7XZ1KI
+- PART #2 ...
+
+### Links of Tools and Addons used
+- Blender 2.83 > https://www.blender.org/download
+- Blender Addon GGT [Godot Game Tools](https://viniguerrero.itch.io/godot-game-tools)
+- Blender Addon PRC [Pre Render Creator](https://viniguerrero.itch.io/pre-render-creator)
 
 ### ...
-Vai utilizar esse código de forma comercial? Fique tranquilo pode usar de forma livre e sem precisar mencionar nada, claro que vou ficar contente se pelo menos lembrar da ajuda e compartilhar com os amigos, rs. Caso sinta no coração, considere me pagar um cafezinho :heart: -> https://ko-fi.com/thiagobruno
-
-
+If you feel at heart, consider buying me a cup of coffee, your support is very important! :heart: -> https://ko-fi.com/thiagobruno

@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scripts/main.gd" type="Script" id=1]
+[ext_resource path="res://assets/cenario/cenario1.png" type="Texture" id=2]
+
+[node name="main" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="cenario" type="TextureRect" parent="."]
+margin_left = 6.99915
+margin_top = -150.273
+margin_right = 1339.0
+margin_bottom = 807.727
+texture = ExtResource( 2 )
+expand = true
+stretch_mode = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="position1" type="Position2D" parent="."]
+position = Vector2( 930.397, 222.894 )
+
+[node name="position2" type="Position2D" parent="."]
+position = Vector2( 583.948, 451.618 )
+
+[node name="parede" type="StaticBody2D" parent="."]
+position = Vector2( 0, 80 )
+
+[node name="collision" type="CollisionPolygon2D" parent="parede"]
+polygon = PoolVector2Array( 896.526, 335.626, 902.371, 458.351, 727.049, 452.507, 717.309, 436.923, 699.777, 249.913, 506.923, 261.601, 466.014, 275.237, 452.378, 320.042, 395.886, 337.574, 378.354, 376.534, 323.809, 397.962, 160.175, 409.651, 27.7102, 417.443, -11.2501, 413.547, -19.0422, -120.211, 1091.33, -106.574, 1060.16, -65.666, 522.507, -50.0818, 528.351, 60.9552, 810.814, 66.7993, 841.982, 101.864, 845.878, 320.042 )
+
+[node name="collision2" type="CollisionPolygon2D" parent="parede"]
+polygon = PoolVector2Array( 1025.1, -40.3417, 1028.99, 323.938, 970.551, 345.366, 966.655, 460.299, 1128.34, 458.351, 1153.66, 431.079, 1157.56, 82.3834, 1272.49, 72.6433, 1268.6, 166.148, 1237.43, 253.809, 1270.55, 353.158, 1274.44, 629.777, 1233.53, 629.777, 1180.94, 584.972, 1122.5, 581.076, 1058.21, 590.816, 1009.51, 631.725, 331.601, 633.673, 292.641, 590.816, 240.044, 577.18, 187.448, 573.284, 123.163, 602.504, 27.7102, 573.284, 17.9701, 411.599, -11.2502, 421.339, -22.9383, 752.502, 1328.99, 746.658, 1325.09, 171.992, 1346.52, -211.767, 1021.2, -196.183 )
+
+[node name="YSort" type="YSort" parent="."]
