@@ -23,6 +23,9 @@ Video com a explicação completa no meu canal do Youtube (PT_BR):
 - PARTE #1 https://www.youtube.com/watch?v=tqObq7XZ1KI
 - PARTE #2 https://www.youtube.com/watch?v=XX-hy4rSAiU
 
+[![Parte 1](https://img.youtube.com/vi/tqObq7XZ1KI/0.jpg)](https://www.youtube.com/watch?v=tqObq7XZ1KI)
+[![Parte 2](https://img.youtube.com/vi/XX-hy4rSAiU/0.jpg)](https://www.youtube.com/watch?v=XX-hy4rSAiU)
+
 ### Links das Ferramentas e Addons utilizados
 - Blender 2.83 > https://www.blender.org/download
 - Blender Addon GGT [Godot Game Tools](https://viniguerrero.itch.io/godot-game-tools)
