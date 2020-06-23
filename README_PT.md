@@ -20,8 +20,8 @@
 
 ### Explicação
 Video com a explicação completa no meu canal do Youtube (PT_BR): 
-- PART #1 https://www.youtube.com/watch?v=tqObq7XZ1KI
-- PART #2 ...
+- PARTE #1 https://www.youtube.com/watch?v=tqObq7XZ1KI
+- PARTE #2 https://www.youtube.com/watch?v=XX-hy4rSAiU
 
 ### Links das Ferramentas e Addons utilizados
 - Blender 2.83 > https://www.blender.org/download
